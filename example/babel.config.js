@@ -9,7 +9,8 @@ module.exports = function (api) {
 
   return getConfig(
     {
-      presets: ['babel-preset-expo'],
+      presets: ['babel-preset-expo',
+        "nativewind/babel",],
     },
     { root, pkg }
   );

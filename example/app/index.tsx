@@ -6,7 +6,7 @@ const result = multiply(3, 7);
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <Text className="text-2xl font-bold text-center">Result: {result}</Text>
     </View>
   );
 }

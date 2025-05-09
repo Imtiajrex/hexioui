@@ -10,7 +10,12 @@ const root = path.resolve(__dirname, '..');
  *
  * @type {import('metro-config').MetroConfig}
  */
-module.exports = getConfig(getDefaultConfig(__dirname), {
+const { withNativeWind } = require('nativewind/metro');
+
+const config = getConfig(getDefaultConfig(__dirname), {
   root,
   project: __dirname,
 });
+
+
+module.exports = withNativeWind(config, { input: './global.css' })

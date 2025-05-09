@@ -1,6 +1,6 @@
 # @hexio/ui
 
-Tailwind based UI components for react-native 
+Tailwind based UI components for react-native
 
 ## Installation
 
@@ -10,7 +10,6 @@ npm install @hexio/ui
 
 ## Usage
 
-
 ```js
 import { multiply } from '@hexio/ui';
 
@@ -18,7 +17,6 @@ import { multiply } from '@hexio/ui';
 
 const result = await multiply(3, 7);
 ```
-
 
 ## Contributing
 
